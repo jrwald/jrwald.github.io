@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+header {
+    padding: 10px 0px 90px 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+nav {
+    background-color: #ffeae7;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0px;
+    overflow: auto;
+    /*Bring floating elements back in order*/
+    text-align: center;
+
+
+}
+
+h1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 280%;
+    text-align: center;
+    padding: 0;
+}
+
+h2 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    padding: 0;
+}
+
+figure {
+    background-color: white;
+    padding: 10px;
+    margin: 5%;
+    width: 20%;
+    float: left;
+
+}
+
+figcaption {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+}
+
+footer {
+    background-color: #ffeae7;
+    padding: 20px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 60px 60px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size 100%;
+    color: black;
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: #ffeae7;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 280%;
+    text-align: center;
+}
+
+
+article {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    padding: 70px 95px;
+}
+
+.flathead {
+    width: 20%;
+    float: right;
+    padding: 13px 10px 0px 10px;
+}
+
+.carroll {
+    width: 20%;
+    float: right;
+    padding: 13px 25px 0px 10px;
+
+}
+
+iframe {
+    width: 40%;
+    padding: 5%;
+    float: right;
+
+}
+
+section {
+    overflow: auto;
+}
+
+footer {
+    background-color: #ffeae7;
+    padding: 20px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 60px 60px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size 100%;
+    color: black;
+    text-decoration: none;
+}
